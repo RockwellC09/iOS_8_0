@@ -1,0 +1,79 @@
+{ Parsed from HealthKit.framework (iPhoneOS8.2) HKTypeIdentifiers.h }
+{ Created on Fri Mar 20 2:11:00 2015 }
+
+{$ifdef EXTERNAL_SYMBOLS}
+var
+  HKQuantityTypeIdentifierBodyMassIndex: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBodyFatPercentage: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierHeight: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBodyMass: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierLeanBodyMass: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierStepCount: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDistanceWalkingRunning: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDistanceCycling: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBasalEnergyBurned: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierActiveEnergyBurned: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierFlightsClimbed: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierNikeFuel: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierHeartRate: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBodyTemperature: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBloodPressureSystolic: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBloodPressureDiastolic: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierRespiratoryRate: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierOxygenSaturation: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierPeripheralPerfusionIndex: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBloodGlucose: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierNumberOfTimesFallen: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierElectrodermalActivity: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierInhalerUsage: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierBloodAlcoholContent: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierForcedVitalCapacity: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierForcedExpiratoryVolume1: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierPeakExpiratoryFlowRate: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryFatTotal: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryFatPolyunsaturated: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryFatMonounsaturated: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryFatSaturated: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryCholesterol: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietarySodium: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryCarbohydrates: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryFiber: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietarySugar: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryEnergyConsumed: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryProtein: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminA: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminB6: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminB12: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminC: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminD: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminE: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryVitaminK: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryCalcium: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryIron: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryThiamin: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryRiboflavin: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryNiacin: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryFolate: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryBiotin: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryPantothenicAcid: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryPhosphorus: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryIodine: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryMagnesium: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryZinc: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietarySelenium: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryCopper: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryManganese: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryChromium: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryMolybdenum: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryChloride: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryPotassium: NSString { available in 8_0 }; cvar; external;
+  HKQuantityTypeIdentifierDietaryCaffeine: NSString { available in 8_0 }; cvar; external;
+  HKCategoryTypeIdentifierSleepAnalysis: NSString { available in 8_0 }; cvar; external;
+  HKCharacteristicTypeIdentifierBiologicalSex: NSString { available in 8_0 }; cvar; external;
+  HKCharacteristicTypeIdentifierBloodType: NSString { available in 8_0 }; cvar; external;
+  HKCharacteristicTypeIdentifierDateOfBirth: NSString { available in 8_0 }; cvar; external;
+  HKCorrelationTypeIdentifierBloodPressure: NSString { available in 8_0 }; cvar; external;
+  HKCorrelationTypeIdentifierFood: NSString { available in 8_0 }; cvar; external;
+  HKWorkoutTypeIdentifier: NSString { available in 8_0 }; cvar; external;
+{$endif}
+

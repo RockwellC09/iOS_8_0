@@ -1,0 +1,17 @@
+{$define FRAMEWORK_LOADED_PHOTOS}
+{$include Photos.inc}
+{$include PHPhotoLibrary.inc}
+{$include PhotosTypes.inc}
+{$include PHObject.inc}
+{$include PHAsset.inc}
+{$include PHCollection.inc}
+{$include PHFetchOptions.inc}
+{$include PHFetchResult.inc}
+{$include PHChange.inc}
+{$include PHContentEditingOutput.inc}
+{$include PHAssetChangeRequest.inc}
+{$include PHAssetCollectionChangeRequest.inc}
+{$include PHCollectionListChangeRequest.inc}
+{$include PHImageManager.inc}
+{$include PHAdjustmentData.inc}
+{$include PHContentEditingInput.inc}

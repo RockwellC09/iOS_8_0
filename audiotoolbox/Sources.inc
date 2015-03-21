@@ -1,0 +1,13 @@
+{$define FRAMEWORK_LOADED_AUDIOTOOLBOX}
+{$include AudioToolbox.inc}
+{$include AudioFile.inc}
+{$include AudioFileStream.inc}
+{$include AudioFormat.inc}
+{$include AudioQueue.inc}
+{$include AudioSession.inc}
+{$include AudioServices.inc}
+{$include AUGraph.inc}
+{$include AudioConverter.inc}
+{$include ExtendedAudioFile.inc}
+{$include MusicPlayer.inc}
+{$include CAFFile.inc}

@@ -1,0 +1,12 @@
+{$define FRAMEWORK_LOADED_PASSKIT}
+{$include PassKit.inc}
+{$include PKError.inc}
+{$include PKObject.inc}
+{$include PKPass.inc}
+{$include PKPaymentPass.inc}
+{$include PKPassLibrary.inc}
+{$include PKAddPassesViewController.inc}
+{$include PKPaymentRequest.inc}
+{$include PKPaymentToken.inc}
+{$include PKPayment.inc}
+{$include PKPaymentAuthorizationViewController.inc}

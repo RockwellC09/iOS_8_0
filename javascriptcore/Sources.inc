@@ -1,0 +1,15 @@
+{$define FRAMEWORK_LOADED_JAVASCRIPTCORE}
+{$include JavaScriptCore.inc}
+{$include JSBase.inc}
+{$include WebKitAvailability.inc}
+{$include JSValueRef.inc}
+{$include JSObjectRef.inc}
+{$include JSContextRef.inc}
+{$include JSStringRef.inc}
+{$include JavaScript.inc}
+{$include JSStringRefCF.inc}
+{$include JSContext.inc}
+{$include JSValue.inc}
+{$include JSManagedValue.inc}
+{$include JSVirtualMachine.inc}
+{$include JSExport.inc}
